@@ -1,0 +1,30 @@
+.container2 {
+	position: relative;
+	margin-top: 100px;
+	padding: 0 30px;
+	z-index: 9;
+}
+
+td {
+    padding: 0px 7px;
+}
+
+.container2 a {
+	color: #0099FF;
+}
+.container2 a:hover {
+	color: #006FB9;
+	text-decoration: underline;
+}
+
+td.team-name {
+    width: 350px;
+}
+
+td.team-name-too-long {
+    font-size: 5px;
+}
+
+td.success {
+    width: 120px;
+}

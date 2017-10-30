@@ -1,0 +1,11 @@
+ol, ol > li {
+    margin-left: 20px;
+}
+
+ol.first-order > li {
+    list-style: decimal;
+}
+
+ol.second-order > li {
+    list-style: lower-alpha;
+}

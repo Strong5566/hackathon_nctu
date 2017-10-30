@@ -1,0 +1,395 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=false;">
+    <title>交大黑客松</title>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/custom.js"></script>
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/nctu-hackathon.css" rel="stylesheet" type="text/css" />
+    <meta property="og:image" content="img/logo_v2_smaller.png">
+</head>
+
+<body>
+    <div class="nav-bar">
+    <div class="width-max">
+        <a class="go-top" href="">交大黑客松<span class="go-top-bottom"></span></a>
+        <a class="go-top-min" href="">交大黑客松</a>
+        <div class="visits">
+            <span>瀏覽人次：</span>
+            <span id="visits_count">計算中...</span>
+        </div>
+        <div class="nav-list">
+            <ul>
+                <li>
+                    <a href="#intro">活動介紹<span class="nav-bottom"></span></a>
+                    <ul>
+                        <a href="#intro" class="nav-bottom"></a>
+                        <li><a href="#what-is-hackathon">什麼是黑客松</a></li>
+                        <li><a href="#about-nctu-hackathon">關於交大黑客松</a></li>
+                        <li><a href="#goal">活動宗旨</a></li>
+                        <li><a href="#result">黑客松成果</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#patterns">活動方式<span class="nav-bottom"></span></a>
+                    <ul>
+                        <a href="#patterns" class="nav-bottom"></a>
+                        <li><a href="#reward">獎勵辦法</a></li>
+                        <li><a href="#info">活動資訊</a></li>
+                        <li><a href="#process">報名流程</a></li>
+                        <li><a href="#attention">報名須知</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#about-us">關於我們<span class="nav-bottom"></span></a>
+                    <ul>
+                        <a href="#about-us" class="nav-bottom"></a>
+                        <li><a href="#teams">主辦團隊與合作伙伴</a></li>
+                        <li><a href="#sponsor">贊助名單</a></li>
+                        <li><a href="#contact-us">聯絡我們</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#faq">問題集<span class="nav-bottom"></span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+    <div class="width-max">
+        <img src="img/logo_v2_smaller.png" class="logo-img"/>
+        <p class="summary">
+        想與產業界的老闆和工程師聊聊天，卻又苦無機會？<br>
+        是否覺得在學校裡學了很多知識，卻不知如何在產業界學以致用？<br>
+        想認識更多熱血追夢、愛好系統開發的朋友嗎？<br>
+        創業風潮當紅，有點心動卻又不知道該如何行動？<br>
+        單純覺得自己身懷絕技，就只差一個展現的舞台？<br>
+        千萬別放過這次改變命運的機會，下一個撼動世界的Steve Jobs就是你！<br>
+        </p>
+        <div class="topic"></div>
+        <section class="min-bg-odd">
+            <h2><a id="intro" class="h-anchor"></a>活動介紹</h2>
+                <div class="topic topic-bottom-line">
+                    <h3><a id="what-is-hackathon" class="h-anchor"></a>什麼是黑客松</h3>
+                    <p>「Hackathon = Hack + Marathon。」Hack原意是駭客，泛指對系統的操作方法、構造和運作原理非常瞭解的人，之後衍申為動詞，意指因應自身需求改造系統，或者乾脆從零開始打造。Marathon應該不用多解釋了吧！就是馬拉松的意思。而「Hackathon」這個組合字，顧名思義，就像是工程界的馬拉松：集合一群志同道合的朋友，以過人的毅力和耐力，在有限的時間內，近乎不眠不休地日夜趕工，將腦海中的構想或專案實現。在國外舉辦的Hackathon，時間可能長達數日至一週不等。不過後來，也出現一些Hackathon，因應不同的環境及需求，把活動時程壓縮在1天之內結束。參與團隊可以實驗性地先開發出系統的prototype(原型)，發表之後，參酌使用者的意見，再決定是否要繼續完成細節，或者是要修改原先的設計。</p>
+                    <p>更多有關Hackathon的介紹，可以參考<a href="http://en.wikipedia.org/wiki/Hackathon" target="_blank">Wikipedia的解說</a></p>
+                </div>
+                <div class="topic topic-bottom-line">
+                    <h3><a id="about-nctu-hackathon" class="h-anchor"></a>關於交大黑客松</h3>
+                    <p>
+                    這次的「交大黑客松」為期兩天一夜，希望藉由這個活動，促成同樣對系統開發有興趣的伙伴互相認識。除此之外，本次活動與其他Hackathon有個很不一樣的地方：以往Hackathon的開發專案是由與會的個人所自行發想決定，若是企業有參與，扮演的角色也只是從旁支援活動流程，而不干涉開發專案本身；然而，<b>本次活動的題目皆是由目前活躍於產業界的企業所提出，因此題目本身將更貼近當前的業界需求。</b>參加本次活動的朋友可以發揮所長，幫助企業解決問題，同時也能和企業面對面交流想法。於活動尾聲的成果發表，更邀請企業和所有參加者一起針對各團隊的作品評筆，並給予意見回饋。假若作品受到企業所青睞，那麼開發團隊還能夠獲得企業所贊助的獨家獎賞。
+                    </p>
+                </div>
+                <div class="topic topic-bottom-line">
+                    <h3><a id="goal" class="h-anchor"></a>活動宗旨</h3>
+                    <p>此活動是與企業合作出題的方式進行，參加者能與企業在第一線接觸交流，解決企業問題幫助其技術力提升。並且希望在兩天一夜的活動時間中，參加者能激發出創意的火花，幫助台灣提升產業技術以及帶動創業風氣。</p>
+                </div>
+                <div class="topic topic-bottom-line">
+                    <h3><a id="result" class="h-anchor"></a>黑客松成果</h3>
+                    <p>[ 紀實 ] <a href="http://www.appuniverz.org/blog/activity/hackathon/hackathon_take/" target="_blank">AppUniverz 黑客松活動紀實</a></p>
+                </div>
+        </section>
+        <section>
+            <h2><a id="patterns" class="h-anchor"></a>活動方式</h2>
+                <div class="topic topic-bottom-line">
+
+                    <h3><a id="reward" class="h-anchor"></a>獎勵辦法</h3>
+                    <p>
+                    出題企業將會提供獎金與獎品鼓勵有所貢獻的開發團隊，甚至直接提供至該企業工作或實習的機會。<br>
+                    原則上，出題企業將依照下列評斷標準，頒予開發團隊全部或者部份比例的獎賞：<br>
+                    <ol type='1' class="normal-list">
+                        <li>作品完成多少項企業所提出的需求</li>
+                        <li>作品對企業的貢獻程度</li>
+                        <li>功能實作的難易度</li>
+                        <li>作品的創意性</li>
+                    </ol>
+                    </p>
+                    <p>
+                    除此之外，只要完整參與兩天一夜的活動，一律授予交大黑客松<b>專屬紀念品</b>和<b>活動參與證書</b>！
+                    </p>
+                    <p>
+                    另外，為鼓勵學生人才，主辦單位將據依當天參與者的整體表現，選出幾位表現<b>優秀學生</b> (視報名人數情況調整)額外頒授「<b>傑出表現獎</b>」。 除此之外，由學生組成之兩人以上團隊，主辦單位亦將甄選出表現優秀的隊伍另外頒予獎勵。
+                    </p>
+                    <h3><a id="info" class="h-anchor"></a>活動資訊</h3>
+                    <ul class="info-list">
+                        <li>
+                            <span class="title">活動時間</span>
+                            <span class="content">2014/02/22(六) 09:00 ~ 2014/02/23(日) 17:00</span>
+                        </li>
+                        <li>
+                            <span class="title">活動地點</span>
+                            <span class="content">交通大學</span>
+                        </li>
+                        <li>
+                            <span class="title">活動費用</span>
+                            <span class="content">(含第一天中、晚餐及第二天早、中餐)</span>
+            </li>
+                        <li>
+                                <span class"title">　　　　</span>
+                            <span class="content">社會人士 700 / 人</span>
+                        </li>
+                        <li>
+                            <span class="title">　　　　</span>
+                            <span class="content">學生 400 / 人 (需要有相關證明)</span>
+                        </li>
+                        <li>
+                            <span class="title">報名網址</span>
+                            <span class="content"><a target="_blank" href="">錄取名單</a></span>
+                        </li>
+                        <li>
+                            <span class="title">報名期限</span>
+                            <span class="content">2014/01/06 ~ 2014/02/02 (已截止)</span>
+                        </li>
+                        <li>
+                            <span class="title">　　　　</span>
+                            <span class="content">(活動方式以報名確認信資訊為主)</span>
+                        </li>
+                        <li>
+                            <span class="title">題目類型</span>
+                            <span class="content">手機應用、Web前後端、軟硬整合、資料分析</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="topic topic-bottom-line">
+                    <h3><a id="process" class="h-anchor"></a>報名流程</h3>
+                    <p>
+        <img src="./img/process.jpg"   class="one-line-img wide"/>
+        <img src="./img/process_s.jpg" class="one-line-img narrow"/>
+報名程序分為兩部份：「網路報名」和，「繳費」。<br>
+請注意！只完成「網路報名」但未「繳費」視同未完成報名程序，自動放棄參加資格，原名額將依序釋出給備取的參加者。<br>
+<br>
+<ol class="number-list">
+    <li>網站報名：填寫基本資料、選填題目類型志願，02/02 截止。網路報名成功後，大會將寄發確認信。</li>
+    <li>02/03 大會公告「網路報名」成功，已錄取的參賽隊伍</li>
+    <li>02/08 第一階段報名成功隊伍繳費期限</li>
+    <li>02/09 大會發出候補通知</li>
+    <li>02/12 候補報名成功隊伍繳費期限</li>
+    <li>02/22 Hackathon當天：公佈確切題目並實作。</li>
+</ol>
+                    </p>
+                </div>
+                <div class="topic topic-bottom-line">
+                    <h3><a id="attention" class="h-anchor"></a>報名須知</h3>
+            <p>
+        題目共分成四大類，在此列出所需要的技術種類：
+
+        <ol class="number-list">
+        <li>手機應用 - iOS/Android/RWD </li>
+        <li>Web前後端 - 前端：HTML/CSS/JavaScript，後端：PHP/MySQL ...</li>
+        <li>軟硬整合 - C/C++/Python/Java...</li>
+        <li>資料分析 - 關聯式資料庫及任何語言</li>
+        </ol>
+
+        </p>
+
+        <p>
+        請於網路報名時依照志願序填寫題目類型，並且儘量在專長中說明團隊或個人所具備的技術或其他能力。完成後主辦單位將會分配適當的題目給各個團隊。
+        <ol class="normal-list">
+        <li>團體報名者：<b>每隊人數2~6人，團隊中至少需有一人會撰寫題目類型所需的程式語言。</b></li>
+        <li>個人報名者：請務必明確填寫個人的專長，如果能夠再「備註」欄位自我介紹更好，以利於主辦單位幫忙媒合適當的合作伙伴。</li>
+        </ol>
+        </p>
+
+        <p>
+        <b>強烈建議攜帶筆記型電腦。</b>活動當天提供電源和無線網路，若要使用主辦單位提供的電腦，必須移駕至公用區，但公用區內不開放團隊討論或飲食。
+        </p>
+
+                </div>
+        </section>
+        <section class="min-bg-odd">
+            <h2><a id="about-us" class="h-anchor"></a>關於我們</h2>
+                <div class="topic topic-bottom-line">
+                    <!--h3>主辦團隊與合作伙伴</h3>
+                    <h4>發起單位</h4>
+                    <p><a href="http://hero-tw.org">HERO ( Hackathon Entrepreneur Revolution Olympics )</a><br>
+                    我們在各大學發起，期望以"H"ackathon方式為主，加上"E"ntrepreneur創造，不斷向前"R"evolution進化，俱有"O"lympics精神，歷久不衰。<br>
+<a href="http://hero-tw.org">http://hero-tw.org</a>
+                    </p>
+                    <h4>發起人</h4>
+                    <p>
+                        <a href="http://java.csie.nctu.edu.tw/~icwu/chindex.html">吳毅成 所長 (交大資工網多所長)</a><br>
+                        <a href="http://wiki.csie.ncku.edu.tw/User/jserv">黃敬群 先生 (杏昕科技 技術長，AppUniverz理事長)</a><br>
+                        <a href="http://chenghsi.com/">高子漢 博士 (交大資工博 95，丞希創辦人暨執行長)</a>
+                    </p-->
+                    <h3><a id="teams" class="h-anchor"></a>主辦組織：遊戲產業發展聯盟（交大產學小聯盟）</h3>
+                    <p>「遊戲產業發展聯盟」為國立交通大學參與行政院國家科學委員會（以下簡稱：國科會）之產學技術聯盟合作計畫「產學小聯盟--遊戲產業發展小聯盟」（以下簡稱：產學小聯盟），是為協助遊戲業界所組成之產學技術聯盟，主要提供中小型遊戲產業軟體技術、技術服務這兩大部分，以及相關的服務。對於聯盟之許多中小遊戲產業所共同提出需修改之進階技術、服務、輔導規劃需求，提供與規劃相關的產學合作及技術發展，並藉由研討會協助與輔導中小遊戲產業之發展，包括核心技術之說明、行銷規劃、服務輔導，提升其研發技術水準與品質，有效落實產學之間互動，提昇業者之競爭能力。<br /><a href="http://game-org.nctu.edu.tw/" target="_blank">http://game-org.nctu.edu.tw/</a></p>
+                    <h4>協辦組織：AppUniverz</h4>
+                    <p>AppUniverz（台灣創新行動服務推廣協會）是發起於清交校園內的非營利組織，鼓勵校園創業、動手實作、產官學資源整合。以「培育台灣軟體創業人才」為最高使命，幫助新創團隊走向國際。<br /><a href="http://www.appuniverz.org/" target="_blank">http://www.appuniverz.org/</a></p>
+                </div>
+                <div class="topic topic-bottom-line" id="logos">
+                    <h3><a id="sponsor" class="h-anchor"></a>贊助名單</h3>
+
+                    <a href="http://www.chocolabs.com/" target="_blank">
+                        <img src="img/CHOCOLABS.png"/>
+                    </a>
+                    <a href="https://developer.kii.com/" target="_blank">
+                        <img src="img/kiicloud-logo.png"/>
+                    </a>
+
+                    <br>
+
+                    <a href="http://www.tic100.org.tw/" target="_blank">
+                        <img src="img/tic100.jpg"/>
+                    </a>
+                    <a href="http://www.accupass.com" target="_blank">
+                        <img src="img/logo_accupass.png"/>
+                    </a>
+                    <a href="http://www.sixnology.com/" target="_blank">
+                        <img src="img/six-logo.png"/>
+                    </a>
+                    <a href="http://www.mitrastar.com/" target="_blank">
+                        <img src="img/MitraStar_tc.png" style="background:white" />
+                   </a>
+                    <br>
+
+                <!--http://www.advantech.tw/pressroom/Executvie/executive_kc_profile_tw.aspx"-->
+                    <a href="http://goo.gl/c8AvHy">
+                    劉克振 學長 (交通大學電信工程系64級，研華科技董事長)
+                    </a><br>
+
+                <!--http://www.dsc.com.tw/event/WB001566/WB001569/WB001592/WB00159201_3.htm"-->
+                    <a href="http://goo.gl/Ce1vpF">
+                    吳惠蘭 學姊 (交通大學管理學程碩士，安侯建業事務所執業會計師)
+                    </a><br>
+
+                    <a href="http://java.csie.nctu.edu.tw/~icwu/chindex.html">
+                    吳毅成 所長 (交通大學資工多媒體工程研究所所長)
+                    </a><br>
+
+                    <a href="http://vip.asia-learning.com/hr/teacher/dopt/265487951/3883">
+                    周文祥 學長 (交通大學計算機工程學系67級，彥陽科技股份有限公司董事長特助兼資訊長)
+                    </a><br>
+
+                    <a href="http://www.pac.nctu.edu.tw/Alumni/greatAlumni_more.php?id=84">
+                    姜長安 學長 (交通大學電子物理系67級，普誠科技董事長)
+                    </a><br>
+
+                    <a href="http://www.zot.com.tw/about/about_zot.asp">
+                    林嘉勳 學長 (交通大學電子工程系63級，零壹科技董事長)
+                    </a><br>
+
+        <!--http://www.entrepreneurship.net.tw/professor/2013/%E6%B2%88%E4%B8%8A%E8%AC%99-0"-->
+                    <a href="http://goo.gl/XNXnMC">
+                    沈上謙 學長 (交通大學資訊科學研究所，Google亞太資深技術顧問)
+                    </a><br>
+
+                    <span>
+                    蘇慧君 小姐 (扶輪社友)
+                    </span><br>
+
+                    <a href="http://www.pac.nctu.edu.tw/Alumni/greatAlumni_more.php?id=106">
+                    陳玉龍 學長 (交通大學電子工程系63級， 盟創科技董事長)
+                    </a><br>
+
+                    <a href="http://chenghsi.com/">
+                    高子漢 博士 (交通大學資工博 95，丞希創辦人暨執行長)
+                    </a><br>
+
+                    <span>
+                    黃須白 學長 (交通大學電子物理系75級，Managing Director, Win Driver Investments)
+                    </span><br>
+
+                    <br>
+                    <span>※名單順序按照姓名筆劃排序</span>
+                </div>
+                <div class="topic">
+                    <h3><a id="contact-us" class="h-anchor"></a>聯絡我們</h3>
+                    <ul class="list-1">
+                        <li>
+                            <span class="title">電子郵件</span>
+                            <span class="content"><a href="mailto:hacknctu@googlegroups.com">hacknctu@googlegroups.com</a></span>
+                        </li>
+                        <!--li>
+                            <span class="title">Facebook社團</span>
+                            <span class="content"><a href="https://www.facebook.com/groups/209230285918450/" target="_blank">交大黑客松</a></span-->
+                        </li>
+                    </ul>
+                </div>
+        </section>
+        <section>
+            <h2><a id="faq" class="h-anchor"></a>問題集</h2>
+            <div>
+                <ul class="list-faq">
+                    <li>
+                    <h3>活動當天在哪住宿？</h3>
+                    <p>
+                    Hackathon理論上是不會停下來睡覺的喔！不過，如果覺得太累想要休息，也可以移動至休息區，趴在桌上小睡，或者自己帶睡袋來打地舖。    
+                    </p>
+                    </li>
+            <li>
+            <h3>活動進行中可以暫時離開會場嗎？</h3>
+            <p>
+            可以。這不是「入圍」，除了開場和閉幕，如果有需要，可以自行暫時離開，但要記得回來！
+            </p>
+            </li>
+                    <li>
+                        <h3>活動內容具體來說是什麼?</h3>
+                        <p>
+                        這是秘密喔！快組隊報名來體驗一下就知道了。可以確定的是：來參加之後，一定會更認識自己、技術更精進、認識不少新朋友，不虛此行！
+                        </p>
+                    </li>
+                    <li>
+                        <h3>非來不可的理由?</h3>
+                        <ul>
+                            <li>與企業交流，直接認識業界的想法和需求，進而瞭解如何學以致用。</li>
+                            <li>幫助企業解決問題，培養學校裡最欠缺的實作能力。成功達成任務的話，還可以獲得企業的獨家好禮。</li>
+                            <li>認識與你同樣積極，而且理念相近的伙伴，歷經兩天一夜的相處，凝聚出深厚的戰友革命情感。</li>
+                            <li>體驗微型創業的經驗，培養團隊合作能力，就算未來沒有選擇創業，也是職場上炙手可熱的人才。</li>
+                            <li>在交大，有好吃的點心，高級的活動會場，這樣的工作環境多難得啊！怎麼可以白白放過呢？</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>活動當天幾點要在哪裡報到呀?</h3>
+                        <p>2014/02/22 週六 上午08:30 ~ 09:00，在「工程三館1F大廳」報到喔!</p>
+                    </li>
+                    <li>
+                        <h3>我不是交大的學生，請問我要怎麼到達會場?</h3>
+                        <p>請先至交通大學，地址：新竹市大學路1001號<br />地圖：<a href="http://www.ga.nctu.edu.tw/relatedMap.htm" target="_blank">交大校內地圖</a>，<a href="https://maps.google.com.tw/maps?q=%E5%9C%8B%E7%AB%8B%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%B8&bav=on.2,or.r_cp.&bvm=bv.58187178,d.dGI,pv.xjs.s.en_US.EeLgqkzqnSg.O&biw=758&bih=453&dpr=1&um=1&ie=UTF-8&hl=zh-TW&sa=N&tab=wl" target="_blank">Google 地圖</a></p>
+                        <ul>
+                            <li>搭乘國道客運的話，建議在「科學園區站」下車，然後從大學路沿途步行到底即交通大學正門；或者可以在「清華大學」站下車，然後穿越清大，走過清交小徑抵達交大。</li>
+                            <li>如果是坐火車來的話，在新竹火車站下車，然後轉搭市區公車2路，終點站即交通大學；2路班次較少，也可以搭1路，至「過溝」站下車，然後沿大學路步行至底。車資單趟一律15元，可以刷各縣市的智慧儲值卡。<br /><a href="http://www.hcbus.com.tw/big5/information-2.asp" target="_blank">新竹市區公車時刻表及路線查詢</a></li>
+                            <li>如果搭乘高鐵，請至新竹站下車，然後轉搭高鐵接駁公車，往東門市場方向，於「交通大學」站下車，車資單趟15元，再延大學路步行至底。<br />或者搭乘交大校內接駁公車，可直達交大。<br />詳見：<a href="http://www.thsrc.com.tw/tw/StationInfo/TBusShortcut/a7a04c89-900b-4798-95a3-c01c455622f4" target="_blank">高鐵新竹站快捷公車</a></li>
+                        </ul>
+                        <p>抵達交通大學後，請參照校內地圖前往「工程三館1F大廳」報到。<br /><a href="http://www.nctu.edu.tw/intro/intro70.pdf" target="_blank">http://www.nctu.edu.tw/intro/intro70.pdf</a></p>
+                        <p>如果對交通方式還有疑問，歡迎來信詢問工作人員。</p>
+                    </li>
+                    <li>
+                        <h3>我需要買回家的車票，請問活動會在幾點左右結束呢?</h3>
+                        <p>活動會在2014/02/23 週日 下午5:30左右結束！</p>
+                    </li>
+                    <li>
+                        <h3>參加這個活動，需要什麼樣的能力?</h3>
+                        <p><b>如果您是自行組成團隊報名，則團隊中至少需有一人會撰寫出題企業指定的程式語言。</b>報名時會提供選項，讓您勾選團隊所使用的程式語言，我們將會依據您勾選的的結果分配適合的題目，大會將再次寄信通知各團隊所需具備的程式語言能力。</p>
+                        <p>而若您是個人報名的，只要您有一顆熱忱的心以及滿滿創意，則沒有一定要會撰寫程式的限制，我們會幫您引介適合的合作伙伴。</p>
+                    </li>
+                    <li>
+                        <h3>我要怎麼知道我報名成功了呢?</h3>
+                        <p>
+                        報名流程分成「網路報名」和「繳費」兩個階段。
+                        大會收到您在網路上填寫的報名資料之後，會寄信通知您已完成「網路報名」！
+                        請注意：完成「網路報名」不代表已報名成功！必須完成「繳費」之後才算是報名已成功！
+                        </p>
+                    </li>
+                    <li>
+                        <h3>如果我成功錄取了，才發現當天有事無法到場參與怎麼辦?</h3>
+                        <p>若您在匯完報名費後發現不克參與，請寄信聯絡工作人員!<br />我們將會退7成的報名費給您.<br />工作人員信箱：<a href="mailto:hacknctu@googlegroups.com">hacknctu@googlegroups.com</a></p>
+                    </li>
+                    <li>
+                        <h3>如果我沒被錄取怎麼辦?Q__Q</h3>
+                        <p>
+                        我們希望有心參與活動的人都能夠如願，但因適合的題目有限，所以可能會出現人數過多的狀況。<br>
+                        如果有釋出候補名額，我們暫定於2014/2/8公佈，請密切關注網站上的消息和大會發出的通知！
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    </div>
+    <span class="hide-text">(網頁公告內容，主辦單位隨時保有修改的權利，以及最終解釋權)</span>
+    <span class="designer">Copyright &copy; 2013 2014 王白毛</span>
+</body>
+</html>
